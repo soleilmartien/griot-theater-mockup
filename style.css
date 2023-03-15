@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.shows {
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+}
+
+.name {
+    font-size: larger;
+    font-weight: bold;
+    padding:3%;
+
+}
+
+.date {
+    font-size: large;
+    font-weight: bold;
+    padding:3%;
+}
+.place {
+    padding:3%;
+}
+.price {
+    padding:3%;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+    position: fixed;
+    height: 60px;
+}
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+}
+
+.nav-item {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: aqua;
+}
+
+.background {
+    
+   
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+
+}
+
+.shows {
+    justify-content: center;
+    width: 70%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-row: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+    "titre titre titre"
+    "concert-image1 info1 readmore1"
+    "hr1 hr1 hr1"
+    "concert-image2 info2 readmore2"
+    "hr2 hr2 hr2"
+    "concert-image3 info3 readmore3"
+    "hr3 hr3 hr3"
+    "concert-image4 info4 readmore4"
+}
+
+.hr1 {
+
+    grid-area: hr1;
+}
+.hr2 {
+    grid-area: hr2;
+}
+.hr3 {
+    grid-area: hr3;
+}
+.concert-image1 {
+    grid-area: concert-image1;
+    width:77%;
+    height:66%;
+    padding:10%;
+    padding-left:0%;
+    padding-bottom:0%
+}
+.concert-image2 {
+    grid-area: concert-image2;
+    width:77%;
+    height:66%;
+    padding:10%;
+    padding-left:0%;
+    padding-bottom:0%
+}
+
+.concert-image3 {
+    grid-area: concert-image3;
+    width:77%;
+    height:66%;
+    padding:10%;
+    padding-left:0%;
+    padding-bottom:0%
+}
+
+.concert-image4 {
+    grid-area: concert-image4;
+    width:77%;
+    height:66%;
+    padding:10%;
+    padding-left:0%;
+    padding-bottom:0%
+}
+.info1 {
+    grid-area: info1;
+}
+.info2 {
+    grid-area: info2;
+}
+.info3 {
+    grid-area: info3;
+}
+.info4 {
+    grid-area: info4;
+}
+.readmore1 {
+    grid-area: readmore1;
+    background-color: rgb(255, 191, 0);
+    outline: 1px solid black;
+    width: 35%;
+    height: 15%;
+    color: white;
+    font-size:x-large;
+    text-align: center;
+    padding-top:4%
+}
+.readmore2 {
+    grid-area: readmore2;
+    background-color: rgb(255, 191, 0);
+    outline: 1px solid black;
+    width: 35%;
+    height: 15%;
+    color: white;
+    font-size:x-large;
+    text-align: center;
+    padding-top:4%
+    
+}
+.readmore3 {
+    grid-area: readmore3;
+    background-color: rgb(255, 191, 0);
+    outline: 1px solid black;
+    width: 35%;
+    height: 15%;
+    color: white;
+    font-size:x-large;
+    text-align: center;
+    padding-top:4%
+}
+.readmore4 {
+    grid-area: readmore4;
+    background-color: rgb(255, 191, 0);
+    outline: 1px solid black;
+    width: 35%;
+    height: 15%;
+    color: white;
+    font-size:x-large;
+    text-align: center;
+    padding-top:4%
+}
+.titre {
+    grid-area: titre;
+    width: 50%;
+    margin-top: 4%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+
+    
+}
+
+.concert-image {
+    grid-template-areas: concert-image;
+    width: 30px;
+}
+
+.info { 
+    grid-template-areas: info;   
+}
+
+.readmore {
+    grid-template-areas: readmore;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.showfeats {
+    z-index: 1;
+    
+    justify-content: center;
+    align-items: center;
+    color:white;
+    display:flex;
+    font-size: 60px;
+
+}
+
+.titre {
+    background-color: rgb(208, 208, 208);
+    outline: 1px solid grey;
+    padding-left: 3%;
+    width: 90%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.showfeats {
+    background-image: url('./theater-image-background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 300px;
+    
+}
+
+.landing-page-area-one {
+    height:max-content;
+}
+
+hr { 
+    justify-self: center;
+    border: 1px solid grey;
+    width:90%;
+    margin-left: 0px;
+}
